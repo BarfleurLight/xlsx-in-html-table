@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import telebot
 import config
 from exel_in_pandas import name_table, conver_xlsx
