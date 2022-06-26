@@ -7,7 +7,8 @@ def name_table():
     files = os.listdir(dirname)
     last_elements = max(files)
     element1, element2 = last_elements.split(sep='.')
-    name0 = str(int(element1) + 1) + '.' + element2
+    element1_1 = str(int(element1) +1)
+    name0 = element1_1.zfill(4) + '.' + element2
     name1 = last_elements
     name3 = element1 + '.txt'
     return [name0, name1, name3]
